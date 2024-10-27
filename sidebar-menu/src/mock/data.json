@@ -1,0 +1,74 @@
+[
+	{
+		"label": "Home",
+		"to": "/"
+	},
+	{
+		"label": "Profile",
+		"to": "/profile",
+		"children": [
+			{
+				"label": "Details",
+				"to": "details",
+				"children": [
+					{
+						"label": "Location",
+						"to": "location",
+						"children": [
+							{
+								"label": "City",
+								"to": "city"
+							},
+							{
+								"label": "Country",
+								"to": "country"
+							},
+							{
+								"label": "State",
+								"to": "state"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Settings",
+		"to": "/settings",
+		"children": [
+			{
+				"label": "Account",
+				"to": "account"
+			},
+			{
+				"label": "Security",
+				"to": "security",
+				"children": [
+					{
+						"label": "Login",
+						"to": "login"
+					},
+					{
+						"label": "Register",
+						"to": "register"
+					}
+				]
+			},
+      {
+        "label": "Help",
+        "to": "/help",
+        "children": [
+          {
+            "label": "FAQ",
+            "to": "faq"
+          },
+          {
+            "label": "Contact Us",
+            "to": "contact-us"
+          }
+        ]
+      }
+		]
+	}
+]

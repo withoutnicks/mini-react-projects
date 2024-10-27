@@ -1,0 +1,14 @@
+[
+	{
+		"name": "windows",
+		"logo": "https://logos-world.net/wp-content/uploads/2020/12/Windows-New-Logo.png"
+	},
+	{
+		"name": "macos",
+		"logo": "https://seeklogo.com/images/A/apple-mac-os-logo-02F86B913E-seeklogo.com.png"
+	},
+	{
+		"name": "linux",
+		"logo": "https://seeklogo.com/images/L/Linux-logo-CFCA1C571C-seeklogo.com.png"
+	}
+]

@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  @apply text-lg
+}
+
+.scroll_box {
+  @apply h-[20vh] border-[#b7b7b7] border-solid border-[0.05rem];
+  background: rgb(245, 245, 245);
+}
+.scroll_bar {
+  @apply relative h-2 w-full;
+  background: rgb(179, 179, 179);
+}
+.scroll_indicator {
+  @apply fixed h-2;
+  background: #6c8efd;
+}
+.scroll_info {
+  @apply text-[#333] text-base p-4;
+}

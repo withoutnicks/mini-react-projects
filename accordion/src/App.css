@@ -1,0 +1,43 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.accordions {
+	display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 400px;
+  margin: 1rem auto 0 auto;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+  width: 400px;
+  cursor: pointer;
+
+  & p {
+    text-align: left;
+  }
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  padding-left: 1em;
+  text-align: left;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}

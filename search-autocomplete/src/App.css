@@ -1,0 +1,27 @@
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* From Uiverse.io by JayRamoliya */ 
+.ipt_search {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ccc;
+  outline: none;
+}
+
+.ipt_search:focus {
+  border-color: #99b18e;
+}
+
+.description {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #999;
+}
